@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 626px;
+  margin: 64px auto 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  margin-top: 32px;
+}
+
+.titulo__destaque {
+  color: #ee24ff;
+  font-weight: 700;
+}
+
+.section__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Open Sans";
+  color: #828282;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.section__container__span {
+  color: #3f3d56;
+  font-weight: 700;
+}
+
+.frase {
+  margin-top: 32px;
+  font-family: "Open Sans";
+  color: #828282;
+}
+
+.rodape {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.line {
+  margin-bottom: 16px;
+  border: 1px solid #eceff2;
+  width: 391px;
+}
+
+.rodape__links {
+  display: flex;
+  gap: 42px;
+  margin-bottom: 40.83px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #3f3d56;
+}
+
+.onda {
+  width: 100%;
+  margin-bottom: 0;
+}
